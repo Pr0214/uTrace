@@ -4,7 +4,7 @@
 使用方法，创建unicorn实例后添加这么一句即可：
 **uTrace.UnicornDebugger(mu)**
 
-</p>
+```
 example.py
 from unicorn import *
 from unicorn.arm_const import *
@@ -32,7 +32,7 @@ mu.reg_write(UC_ARM_REG_R0,0x3)
 
 mu.emu_start(ADDRESS+1, until=0, count=2)
 
-</p>
+```
 
 rainbow是一个小巧而美的unicorn trace项目，其中的trace打印效果很漂亮，本项目剪裁了其中arm32 trace部分并稍作完善，适合以下场景
 
