@@ -4,13 +4,13 @@
 效果如下
 ![image](show.png)
 
-每一列指代
-1.当前处于ARM/THUMB，A指代ARM，T指代Thumb
-2.虚拟地址
-3.机器码
-4.汇编指令
-5.寄存器变化
-6.内存读写
+各列的含义：
+- 当前处于ARM/THUMB，A指代ARM，T指代Thumb
+- 虚拟地址
+- 机器码
+- 汇编指令
+- 寄存器变化
+- 内存读写
 
 使用方法，创建unicorn实例后加上一句
 **uTrace.UnicornDebugger(mu)**
