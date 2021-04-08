@@ -1,11 +1,11 @@
 # uTrace
 一个简易的unicorn tracer，剪裁自项目[rainbow](https://github.com/Ledger-Donjon/rainbow)。
 
-使用方法，创建unicorn实例后添加这么一句即可：
+使用方法，创建unicorn实例后加上一句：\n
 **uTrace.UnicornDebugger(mu)**
 
 ```
-example.py
+# example.py
 from unicorn import *
 from unicorn.arm_const import *
 import uTrace
