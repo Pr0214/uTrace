@@ -1,9 +1,18 @@
 # uTrace
 一个简易的unicorn tracer，剪裁自项目[rainbow](https://github.com/Ledger-Donjon/rainbow)。
-<br>
+
+效果如下
 ![image](show.png)
 
-使用方法，创建unicorn实例后加上一句：
+每一列指代
+1.当前处于ARM/THUMB，A指代ARM，T指代Thumb
+2.虚拟地址
+3.机器码
+4.汇编指令
+5.寄存器变化
+6.内存读写
+
+使用方法，创建unicorn实例后加上一句
 **uTrace.UnicornDebugger(mu)**
 
 ```
